@@ -20,6 +20,7 @@ class AlertSource(str, enum.Enum):
     """Source of the alert."""
 
     DATADOG = "Datadog"
+    ALERTMANAGER = "Alertmanager"
 
 
 class AlertStatus(str, enum.Enum):
